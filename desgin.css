@@ -1,0 +1,105 @@
+* {
+    margin:0%;
+    text-align:center;
+}
+.parallax {
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section2{
+    text-align: center;
+}
+body {
+        margin: 0%;
+        background-image: url(image1.jpg);
+        background-size: cover;
+}
+.super{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#header {
+    background-color: black;
+    height: 70px;
+}
+h1 {
+    color: cornsilk;
+}
+#brand{
+    width: 40%;
+    float: left;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+#menu {
+    width: 60%;
+    float: right;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+}
+a {
+    color: cornsilk;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#title {
+    margin-top: 35px;
+}
+
+#pizza {
+    margin-top: 20px;
+}
+#DP {
+    background: linear-gradient(45deg,darkred,black);
+    color: white;
+    width: 500px;
+    padding: 15px;
+    border-radius: 50%;
+    margin:20px auto
+  }
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+#TB {
+  background: linear-gradient(45deg,darkred,black);
+  color: white;
+  width: 500px;
+  padding: 15px;
+  border-radius: 50%;
+  margin:20px auto
+}
+#footer {
+    background: black;
+    padding: 50px;
+    color: cornsilk;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#drinks
+    {
+        background: linear-gradient(45deg,darkred,black);
+        color: white;
+        width: 500px;
+        padding: 15px;
+        border-radius: 50%;
+        margin:20px auto
+      }
